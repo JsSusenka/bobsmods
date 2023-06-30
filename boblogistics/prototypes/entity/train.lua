@@ -121,10 +121,10 @@ if settings.startup["bobmods-logistics-trains"].value == true then
         minable = { result = "bob-locomotive-3" },
         max_health = 1700,
         weight = 2000, --original is 2000
-        max_speed = 6,
-        max_power = "3600kW",
+        max_speed = 12,
+        max_power = "7200kW",
         reversing_power_modifier = 1,
-        braking_force = 60,
+        braking_force = 120,
         friction_force = 0.25, --0.0005,
         air_resistance = 0.004, --0.001, -- this is a percentage of current speed that will be subtracted
         resistances = rolling_stock_resistances(),
